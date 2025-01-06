@@ -1,4 +1,5 @@
 <odoo>
+	<data>
 	<record id="view_book_tree" model="ir.ui.view">
 		<field name="name">book.tree</field>
 		<field name="model">simple.book</field>
@@ -37,4 +38,5 @@
 
 	<menuitem id="menu_library" name="Library" sequence="1"/>
 	<menuitem id="menu_books" name="Books" parent="menu_library" action="action_book" sequence="2"/>
+</data>
 </odoo>
