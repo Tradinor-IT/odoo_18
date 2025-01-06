@@ -1,9 +1,8 @@
 <odoo>
 	<data>
-	<record id="view_book_tree" model="ir.ui.view">
+	<record id="view_book_tree" model="ir.ui.view.tree">
 		<field name="name">book.tree</field>
 		<field name="model">simple.book</field>
-		<field name="type">ir.ui.view.tree</field>
 		<field name="arch" type="xml">
 			<tree>
 				<field name="name"/>
