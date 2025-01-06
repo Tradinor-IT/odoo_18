@@ -4,12 +4,12 @@
 		<field name="name">simple.book</field>
 		<field name="model">simple.book</field>
 		<field name="arch" type="xml">
-			<tree>
+			<!--<tree>
 				<field name="name"/>
 				<field name="author"/>
 				<field name="published_date"/>
 				<field name="price"/>
-			</tree>
+			</tree>-->
 		</field>
 	</record>
 
