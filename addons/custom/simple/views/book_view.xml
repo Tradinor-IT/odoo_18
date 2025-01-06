@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-	<record id="view_book_tree" model="ir.ui.view.tree">
-		<field name="name">book.tree</field>
+	<record id="view_book_tree" model="ir.ui.view">
+		<field name="name">simple.book</field>
 		<field name="model">simple.book</field>
 		<field name="arch" type="xml">
 			<tree>
