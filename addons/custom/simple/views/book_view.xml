@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 	<record id="view_book_tree" model="ir.ui.view">
-		<field name="name">simple.book</field>
+		<field name="name">simple.book.tree</field>
 		<field name="model">simple.book</field>
 		<field name="arch" type="xml">
-			<list>
+			<tree>
 				<field name="name"/>
 				<field name="author"/>
 				<field name="published_date"/>
 				<field name="price"/>
-			</list>
-			<!--<tree>
-				<field name="name"/>
-				<field name="author"/>
-				<field name="published_date"/>
-				<field name="price"/>
-			</tree>-->
+			</tree>
 		</field>
 	</record>
 
