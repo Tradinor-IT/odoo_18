@@ -4,7 +4,7 @@
 		<field name="name">simple.book.tree</field>
 		<field name="model">simple.book</field>
 		<field name="arch" type="xml">
-			<tree>
+			<tree string="Student">
 				<field name="name"/>
 				<field name="author"/>
 				<field name="published_date"/>
