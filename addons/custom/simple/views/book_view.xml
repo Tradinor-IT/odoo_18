@@ -1,7 +1,7 @@
 <odoo>
 	<record id="view_book_tree" model="ir.ui.view">
 		<field name="name">book.tree</field>
-		<field name="model">my_simple_module.book</field>
+		<field name="model">model_simple_book</field>
 		<field name="arch" type="xml">
 			<tree>
 				<field name="name"/>
@@ -14,7 +14,7 @@
 
 	<record id="view_book_form" model="ir.ui.view">
 		<field name="name">book.form</field>
-		<field name="model">my_simple_module.book</field>
+		<field name="model">model_simple_book</field>
 		<field name="arch" type="xml">
 			<form>
 				<sheet>
@@ -31,7 +31,7 @@
 
 	<record id="action_book" model="ir.actions.act_window">
 		<field name="name">Books</field>
-		<field name="res_model">my_simple_module.book</field>
+		<field name="res_model">model_simple_book</field>
 		<field name="view_mode">tree,form</field>
 	</record>
 
